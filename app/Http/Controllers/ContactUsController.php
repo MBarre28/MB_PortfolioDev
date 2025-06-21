@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class ContactUsController extends Controller
+{
+    public function ContactUs()
+    {
+        return view('frontendviews.ContactUs');
+    }
+
+}
